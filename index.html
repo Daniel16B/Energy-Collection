@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css" />
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<title>Energy Collection WebSite</title>
+
+</head>
+
+<body>
+	<header>
+		<a href="index.html">Energy Collection</a>
+	</header>
+
+	<section id="collection">
+		<div class="nav-container">
+			<h2>Collection</h2>
+			<form id="item-filter">
+				<input type="radio" name="release-category" value="All" id="All" checked="checked"
+					onclick="filterReleases()" />
+				<label for="All">All <span id="count-All"></span> </label>
+				<input type="radio" name="release-category" value="Monster" id="Monster" onclick="filterReleases()" />
+				<label for="Monster">Monster <span id="count-Monster"></span> </label>
+				<input type="radio" name="release-category" value="RedBull" id="RedBull" onclick="filterReleases()" />
+				<label for="RedBull">RedBull <span id="count-RedBull"></span> </label>
+				<input type="radio" name="release-category" value="Hell" id="Hell" onclick="filterReleases()" />
+				<label for="Hell">Hell <span id="count-Hell"></span> </label>
+				<input type="radio" name="release-category" value="NonStop" id="NonStop" onclick="filterReleases()" />
+				<label for="NonStop">NonStop <span id="count-NonStop"></span> </label>
+				<input type="radio" name="release-category" value="Battery" id="Battery" onclick="filterReleases()" />
+				<label for="Battery">Battery <span id="count-Battery"></span> </label>
+				<!--<input type="radio" name="release-category" value="Album" id="Album" onclick="filterReleases()" />
+            <label for="Album">Album</label>-->
+			</form>
+		</div>
+		<div class="photos-grid">
+			<div class="collection-item" name="collection-item" data-category="All Battery">
+				<img src="img/battery1.jpeg">
+				<h5 class="name">Battery</h5>
+				<h3 class="subtitle">Electric</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All NonStop">
+				<img src="img/nonstop1.jpeg">
+				<h5 class="name">NonStop</h5>
+				<h3 class="subtitle">Stalker</h3>
+			</div>
+			
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster42.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Ultra Black</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster41.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Nitro | Cosmic Peach</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster40.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Ultra Fantasy Ruby Red</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster39.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Ultra Watermelon</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster38.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Ultra Red</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster37.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">VR 46 | Zero Sugar | Rossi</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster36.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Juiced | Viking Berry</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster35.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Java | Mean Bean</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster34.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Java | Loca Moca</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster33.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Orange Dreamsicle</h3>
+			</div>
+			
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster32.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Java | Irish Creme</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster31.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Ultra Rose</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster30.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Ultra Gold</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster29.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Juiced | Monarch</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster28.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Punch | Pipeline Punch</h3>
+			</div>
+			
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster27.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Juiced | Ripper</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster26.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Ultra Peachy Keen</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster25.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Reserve | White Pineapple</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster24.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Ultra Blue</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster23.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Nitro | Super Day</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster22.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Assault</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster21.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Juiced | Aussie Lemonade</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster20.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Reserve | Watermelon</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster19.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Rehab | Tea-Lemonade</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster18.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Rehab | Tea-Peach</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster17.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Punch | Rio Punch</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster16.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Rehab | Tea-Lemonade</h3>
+			</div>
+			
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster15.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Lewis Hamilton</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster14.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Juiced | Bad Apple</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster13.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Ultra</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster12.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Punch | Pacific Punch</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster11.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Juiced | Khaotic</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster10.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Juiced | Mango Loco</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster9.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Zero Sugar</h3>
+			</div>
+			
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster8.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Ultra Violet</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster7.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Zero Sugar</h3>
+			</div>
+			
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster6.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Ultra Fiesta Mango</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster5.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">VR 46 | The Doctor</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster4.jpeg">
+				<h5 class="name">Monster </h5>
+				<h3 class="subtitle">Zero Sugar | Lewis Hamilton</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster3.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Original</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster1.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Zero Sugar | Lando Norris</h3>
+			</div>
+
+			<div class="collection-item" name="collection-item" data-category="All Monster">
+				<img src="img/monster2.jpeg">
+				<h5 class="name">Monster</h5>
+				<h3 class="subtitle">Ultra Paradise</h3>
+			</div>
+		
+		</div>
+
+	</section>
+	<footer>
+		<div class="footer-info">
+			<p>© 2025 Alternative</p>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
