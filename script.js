@@ -21,7 +21,8 @@ function updateCategoryCounts() {
 		RedBull: 0,
 		Hell: 0,
 		NonStop: 0,
-		Battery: 0
+		Battery: 0,
+		BestShot: 0
 	};
 
 	cards.forEach(card => {
