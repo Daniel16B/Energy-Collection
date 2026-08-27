@@ -1958,7 +1958,7 @@ const cans = [
 		line: "",
 		flavor: "",
 		volume: 250,
-		category: "popular",
+		category: "other",
 		image: "images/bumbum.jpg"
 	},
 	
