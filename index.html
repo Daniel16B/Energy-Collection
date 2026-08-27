@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Energy Collection</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<h1>Energy Collection</h1>
+
+		<div class="search-container">
+			<input type="text" id="searchInput" placeholder="Search...">
+		</div>
+	</header>
+
+
+	<main class="container">
+
+		<!-- Фильтры -->
+		<section class="filters">
+
+			<div class="filter">
+
+				<button class="filter-button" id="brandFilterButton">
+					<span>Filters</span>
+					<span class="arrow">↓</span>
+				</button>
+
+				<div class="filter-menu" id="brandFilterMenu">
+					<!-- Сюда JavaScript добавит чекбоксы -->
+				</div>
+
+			</div>
+
+		</section>
+
+
+		<!-- Коллекция -->
+		<section class="collection" id="collection">
+
+			<!-- Карточки создаются JavaScript -->
+
+		</section>
+
+
+		<!-- Если ничего не найдено -->
+		<div class="empty-message" id="emptyMessage">
+			Nothings found
+		</div>
+
+	</main>
+
+	<script src="cans.js"></script>
+	<script src="script.js"></script>
+
+</body>
+
+</html>
