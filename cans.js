@@ -1,6 +1,519 @@
 const cans = [
 
 	{
+		name: "Tiger",
+		line: "",
+		flavor: "Placebo Classic",
+		volume: 250,
+		category: "popular",
+		image: "images/tiger18.jpg"
+	},
+	
+	{
+		name: "Tiger",
+		line: "",
+		flavor: "Daiquiri",
+		volume: 250,
+		category: "popular",
+		image: "images/tiger17.jpg"
+	},
+	
+	{
+		name: "Tiger",
+		line: "",
+		flavor: "Invasion",
+		volume: 250,
+		category: "popular",
+		image: "images/tiger16.jpg"
+	},
+	
+	{
+		name: "Tiger",
+		line: "",
+		flavor: "Gangsta Cola",
+		volume: 250,
+		category: "popular",
+		image: "images/tiger15.jpg"
+	},
+	
+	{
+		name: "CrazyWolf",
+		line: "Extra Koffein",
+		flavor: "Strong Cola",
+		volume: 330,
+		category: "other",
+		image: "images/crazywolf13.jpg"
+	},
+	
+	{
+		name: "Red Bull",
+		line: "Pink Edition | Sugar Free",
+		flavor: "Forest Fruit",
+		volume: 250,
+		category: "popular",
+		image: "images/redbull25.jpg"
+	},
+	
+	{
+		name: "Red Bull",
+		line: "",
+		flavor: "Zero",
+		volume: 250,
+		category: "popular",
+		image: "images/redbull24.jpg"
+	},
+	
+	{
+		name: "Red Bull",
+		line: "Winter Edition",
+		flavor: "Iced Vanilla Berry",
+		volume: 250,
+		category: "popular",
+		image: "images/redbull23.jpg"
+	},
+	
+	{
+		name: "Red Bull",
+		line: "Apricot Edition",
+		flavor: "Apricot-Strawberry",
+		volume: 250,
+		category: "popular",
+		image: "images/redbull22.jpg"
+	},
+	
+	{
+		name: "Red Bull",
+		line: "Green Edition",
+		flavor: "Cactus Fruit",
+		volume: 250,
+		category: "popular",
+		image: "images/redbull21.jpg"
+	},
+	
+	{
+		name: "Red Bull",
+		line: "Winter Edition",
+		flavor: "Pear-Cinnamon",
+		volume: 250,
+		category: "popular",
+		image: "images/redbull20.jpg"
+	},
+	
+	{
+		name: "Red Bull",
+		line: "Summer Edition",
+		flavor: "White Peach",
+		volume: 250,
+		category: "popular",
+		image: "images/redbull19.jpg"
+	},
+	
+	{
+		name: "Red Bull",
+		line: "Sea Blue Edition",
+		flavor: "Juneberry",
+		volume: 250,
+		category: "popular",
+		image: "images/redbull18.jpg"
+	},
+	
+	{
+		name: "Red Bull",
+		line: "Summer Edition",
+		flavor: "Curuba-Elderflower",
+		volume: 250,
+		category: "popular",
+		image: "images/redbull17.jpg"
+	},
+	
+	{
+		name: "Kong Strong",
+		line: "",
+		flavor: "Zero",
+		volume: 250,
+		category: "other",
+		image: "images/kong8.jpg"
+	},
+	
+	{
+		name: "Kong Strong",
+		line: "",
+		flavor: "Classic",
+		volume: 250,
+		category: "other",
+		image: "images/kong7.jpg"
+	},
+	
+	{
+		name: "Kong Strong",
+		line: "Zero",
+		flavor: "Watermelon",
+		volume: 250,
+		category: "other",
+		image: "images/kong6.jpg"
+	},
+	
+	{
+		name: "Kong Strong",
+		line: "",
+		flavor: "Urban Classic",
+		volume: 250,
+		category: "other",
+		image: "images/kong5.jpg"
+	},
+	
+	{
+		name: "Kong Strong",
+		line: "",
+		flavor: "Lidl",
+		volume: 250,
+		category: "other",
+		image: "images/kong4.jpg"
+	},
+	
+	{
+		name: "Kong Strong",
+		line: "",
+		flavor: "SugarFree",
+		volume: 250,
+		category: "other",
+		image: "images/kong3.jpg"
+	},
+	
+	{
+		name: "Hell",
+		line: "",
+		flavor: "Caffeine Free",
+		volume: 250,
+		category: "popular",
+		image: "images/hell43.jpg"
+	},
+	
+	{
+		name: "Hell",
+		line: "Zero",
+		flavor: "Strawberry",
+		volume: 250,
+		category: "popular",
+		image: "images/hell42.jpg"
+	},
+	
+	{
+		name: "Hell",
+		line: "Football Fanatic",
+		flavor: "Classic",
+		volume: 250,
+		category: "popular",
+		image: "images/hell41.jpg"
+	},
+	
+	{
+		name: "Hell",
+		line: "",
+		flavor: "Black Cherry",
+		volume: 250,
+		category: "popular",
+		image: "images/hell40.jpg"
+	},
+	
+	{
+		name: "Hell",
+		line: "",
+		flavor: "Classic",
+		volume: 250,
+		category: "popular",
+		image: "images/hell39.jpg"
+	},
+	
+	{
+		name: "Hell",
+		line: "Summer Cool",
+		flavor: "Groovy Grapefruit",
+		volume: 250,
+		category: "popular",
+		image: "images/hell38.jpg"
+	},
+	
+	{
+		name: "Hell",
+		line: "Ice Cool",
+		flavor: "Aurora Kiwi-Guava",
+		volume: 250,
+		category: "popular",
+		image: "images/hell37.jpg"
+	},
+	
+	{
+		name: "Hell",
+		line: "Storng",
+		flavor: "Apple",
+		volume: 250,
+		category: "popular",
+		image: "images/hell36.jpg"
+	},
+	
+	{
+		name: "Hell",
+		line: "Strong",
+		flavor: "Red Grape",
+		volume: 250,
+		category: "popular",
+		image: "images/hell35.jpg"
+	},
+	
+	{
+		name: "Hell",
+		line: "Summer Cool",
+		flavor: "Chillin' Guanabana-Mango",
+		volume: 250,
+		category: "popular",
+		image: "images/hell34.jpg"
+	},
+	
+	{
+		name: "Fanta",
+		line: "Zero",
+		flavor: "Tutti Frutti",
+		volume: 330,
+		category: "popular",
+		image: "images/fanta7.jpg"
+	},
+	
+	{
+		name: "Crazy Wolf",
+		line: "",
+		flavor: "Classic",
+		volume: 250,
+		category: "other",
+		image: "images/crazywolf12.jpg"
+	},
+	
+	{
+		name: "Crazy Wolf",
+		line: "",
+		flavor: "Apfel",
+		volume: 250,
+		category: "other",
+		image: "images/crazywolf11.jpg"
+	},
+	
+	{
+		name: "Crazy Wolf",
+		line: "",
+		flavor: "Cassis",
+		volume: 250,
+		category: "other",
+		image: "images/crazywolf10.jpg"
+	},
+	
+	{
+		name: "Crazy Wolf",
+		line: "",
+		flavor: "Kaktus-Fiegen",
+		volume: 250,
+		category: "other",
+		image: "images/crazywolf9.jpg"
+	},
+	
+	{
+		name: "Crazy Wolf",
+		line: "",
+		flavor: "Limetten",
+		volume: 250,
+		category: "other",
+		image: "images/crazywolf8.jpg"
+	},
+	
+	{
+		name: "Crazy Wolf",
+		line: "",
+		flavor: "StrongCola",
+		volume: 250,
+		category: "other",
+		image: "images/crazywolf7.jpg"
+	},
+	
+	{
+		name: "Crazy Wolf",
+		line: "",
+		flavor: "Wasser-Melonen",
+		volume: 250,
+		category: "other",
+		image: "images/crazywolf6.jpg"
+	},
+	
+	{
+		name: "Crazy Wolf",
+		line: "",
+		flavor: "Tropical",
+		volume: 250,
+		category: "other",
+		image: "images/crazywolf5.jpg"
+	},
+	
+	{
+		name: "Crazy Wolf",
+		line: "",
+		flavor: "Sugarfree",
+		volume: 250,
+		category: "other",
+		image: "images/crazywolf4.jpg"
+	},
+	
+	{
+		name: "Coca Cola",
+		line: "Original",
+		flavor: "Marvel",
+		volume: 330,
+		category: "popular",
+		image: "images/cocacola32.jpg"
+	},
+	
+	{
+		name: "Coca Cola",
+		line: "Zero",
+		flavor: "Marvel",
+		volume: 330,
+		category: "popular",
+		image: "images/cocacola31.jpg"
+	},
+	
+	{
+		name: "Coca Cola",
+		line: "Original",
+		flavor: "Marvel",
+		volume: 330,
+		category: "popular",
+		image: "images/cocacola30.jpg"
+	},
+	
+	{
+		name: "Coca Cola",
+		line: "Zero",
+		flavor: "K-Wave",
+		volume: 330,
+		category: "popular",
+		image: "images/cocacola29.jpg"
+	},
+	
+	{
+		name: "Coca Cola",
+		line: "Original",
+		flavor: "Marvel",
+		volume: 330,
+		category: "popular",
+		image: "images/cocacola28.jpg"
+	},
+	
+	{
+		name: "Coca Cola",
+		line: "Original",
+		flavor: "Marvel",
+		volume: 330,
+		category: "popular",
+		image: "images/cocacola27.jpg"
+	},
+	
+	{
+		name: "Coca Cola",
+		line: "Zero",
+		flavor: "Marvel",
+		volume: 330,
+		category: "popular",
+		image: "images/cocacola26.jpg"
+	},
+	
+	{
+		name: "Coca Cola",
+		line: "Zero",
+		flavor: "Oreo",
+		volume: 330,
+		category: "popular",
+		image: "images/cocacola25.jpg"
+	},
+	
+	{
+		name: "Coca Cola",
+		line: "Zero",
+		flavor: "StarWars | C3PO",
+		volume: 330,
+		category: "popular",
+		image: "images/cocacola24.jpg"
+	},
+	
+	{
+		name: "Coca Cola",
+		line: "Zero",
+		flavor: "Marvel",
+		volume: 330,
+		category: "popular",
+		image: "images/cocacola23.jpg"
+	},
+	
+	{
+		name: "Clever",
+		line: "",
+		flavor: "Blueberry",
+		volume: 250,
+		category: "other",
+		image: "images/clever4.jpg"
+	},
+	
+	{
+		name: "Clever",
+		line: "",
+		flavor: "Honeydew Melon",
+		volume: 250,
+		category: "other",
+		image: "images/clever3.jpg"
+	},
+	
+	{
+		name: "Clever",
+		line: "",
+		flavor: "Classic",
+		volume: 250,
+		category: "other",
+		image: "images/clever2.jpg"
+	},
+	
+	{
+		name: "Clever",
+		line: "",
+		flavor: "Sugarfree",
+		volume: 250,
+		category: "other",
+		image: "images/clever1.jpg"
+	},
+	
+	{
+		name: "Burn",
+		line: "Zero",
+		flavor: "Watermelon",
+		volume: 250,
+		category: "popular",
+		image: "images/burn13.jpg"
+	},
+	
+	{
+		name: "Burn",
+		line: "Zero",
+		flavor: "Raspberry",
+		volume: 250,
+		category: "popular",
+		image: "images/burn12.jpg"
+	},
+	
+	{
+		name: "Battery",
+		line: "Juiced",
+		flavor: "Citrus Pink Grapefruit",
+		volume: 330,
+		category: "popular",
+		image: "images/battery17.jpg"
+	},
+	
+	{
 		name: "Живчик",
 		line: "",
 		flavor: "Cola",
@@ -1135,7 +1648,7 @@ const cans = [
 	},
 	
 	{
-		name: "Hell",
+		name: "Iron",
 		line: "Strong Apple",
 		flavor: "",
 		volume: 250,
