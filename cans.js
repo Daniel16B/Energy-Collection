@@ -1,6 +1,42 @@
 const cans = [
 
 	{
+		name: "Воля",
+		line: "",
+		flavor: "Ягідний Мікс",
+		volume: 330,
+		category: "popular",
+		image: "images/vola5.jpg"
+	},
+	
+	{
+		name: "Pit Bull",
+		line: "",
+		flavor: "",
+		volume: 500,
+		category: "popular",
+		image: "images/pitbull9.jpg"
+	},
+	
+	{
+		name: "Monster",
+		line: "Zero Sugar",
+		flavor: "Lando Norris",
+		volume: 500,
+		category: "popular",
+		image: "images/monster51.jpg"
+	},
+	
+	{
+		name: "BestShot",
+		line: "",
+		flavor: "Classic",
+		volume: 250,
+		category: "popular",
+		image: "images/bestshot8.jpg"
+	},
+	
+	{
 		name: "Tiger",
 		line: "",
 		flavor: "Placebo Classic",
@@ -3189,7 +3225,7 @@ const cans = [
 	{
 		name: "Monster",
 		line: "Zero Sugar",
-		flavor: "Lando Noris",
+		flavor: "Lando Norris",
 		volume: 500,
 		category: "popular",
 		image: "images/monster1.jpeg"
