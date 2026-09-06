@@ -1,6 +1,24 @@
 const cans = [
 
 	{
+		name: "NonStop",
+		line: "Stalker",
+		flavor: "",
+		volume: 250,
+		category: "popular",
+		image: "images/nonstop21.jpg"
+	},
+	
+	{
+		name: "NonStop",
+		line: "Zoom",
+		flavor: "",
+		volume: 250,
+		category: "popular",
+		image: "images/nonstop20.jpg"
+	},
+	
+	{
 		name: "Воля",
 		line: "",
 		flavor: "Ягідний Мікс",
