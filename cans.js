@@ -1,6 +1,42 @@
 const cans = [
 
 	{
+		name: "Black",
+		line: "",
+		flavor: "Sex Energy",
+		volume: 250,
+		category: "popular",
+		image: "images/black5.jpg"
+	},
+	
+	{
+		name: "Black",
+		line: "After Alcohol",
+		flavor: "Ultra Citrus",
+		volume: 250,
+		category: "popular",
+		image: "images/black4.jpg"
+	},
+	
+	{
+		name: "Hell",
+		line: "Carnival Edition",
+		flavor: "Cotton Candy",
+		volume: 250,
+		category: "popular",
+		image: "images/hell45.jpg"
+	},
+	
+	{
+		name: "Hell",
+		line: "Melon-Prickly Pear",
+		flavor: "",
+		volume: 500,
+		category: "popular",
+		image: "images/hell44.jpg"
+	},
+
+	{
 		name: "NonStop",
 		line: "Stalker",
 		flavor: "",
@@ -1739,8 +1775,8 @@ const cans = [
 	
 	{
 		name: "Hell",
-		line: "Cactus Twist",
-		flavor: "",
+		line: "Carnival Edition",
+		flavor: "Cactus Twist",
 		volume: 250,
 		category: "popular",
 		image: "images/hell30.jpg"
