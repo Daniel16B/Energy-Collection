@@ -1,6 +1,24 @@
 const cans = [
 
 	{
+		name: "Tiger",
+		line: "+50% Caffeine",
+		flavor: "Max Classic",
+		volume: 250,
+		category: "popular",
+		image: "images/tiger19.jpg"
+	},
+	
+	{
+		name: "Tiger",
+		line: "+50% Caffeine",
+		flavor: "Max Mango",
+		volume: 250,
+		category: "popular",
+		image: "images/tiger20.jpg"
+	},
+	
+	{
 		name: "Black",
 		line: "",
 		flavor: "Sex Energy",
