@@ -1,6 +1,15 @@
 const cans = [
 
 	{
+		name: "Pit Bull",
+		line: "",
+		flavor: "Exotic",
+		volume: 250,
+		category: "popular",
+		image: "images/pitbull10.jpg"
+	},
+	
+	{
 		name: "Tiger",
 		line: "+50% Caffeine",
 		flavor: "Max Classic",
